@@ -1,2 +1,3 @@
-# Account-portfolio
-Using React and Next JS
+## Personal Portfolio
+
+![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
