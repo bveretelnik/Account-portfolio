@@ -64,7 +64,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section id="startWork">
       <SectionTitle>Початок роботи</SectionTitle>
       <SectionText>
         Якщо ж ти зацікавився особистим бухгалтером, пропоную ознайомитися як

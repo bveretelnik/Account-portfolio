@@ -22,9 +22,9 @@ import {
 import { projects } from "../../constants/constants";
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id="price">
     <SectionDivider />
-    <SectionTitle main>Ціна</SectionTitle>
+    <SectionTitle main>Ціни</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -46,7 +46,9 @@ const Projects = () => (
             </div>
             <UtilityList>
               <ExternalLinks href={p.visit}>Viber</ExternalLinks>
-              <ExternalLinks href={p.source}>Telegram</ExternalLinks>
+              <ExternalLinks href={"https://t.me/b_veretelnik"}>
+                Telegram
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         );

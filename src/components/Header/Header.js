@@ -1,6 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -45,16 +49,21 @@ const Header = () => (
           <NavLink>Початок роботи</NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>Контакти</NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://www.google.com/">
-        <AiFillGithub size="4rem" />
+      <SocialIcons href="https://www.facebook.com/bogdan.veretelnik">
+        <AiFillFacebook size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.google.com/">
-        <AiFillLinkedin size="4rem" />
+      <SocialIcons href="https://www.linkedin.com/in/bohdan-veretelnik-15a834147">
+        <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.google.com/">
-        <AiFillInstagram size="4rem" />
+      <SocialIcons href="https://www.instagram.com/b_veretelnik">
+        <AiFillInstagram size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

@@ -9,7 +9,7 @@ import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
 
 const data = [
   { number: 130, text: "Задоволених клієнтів" },
-  { number: 80, text: "Успіщно відкритих ФОПів" },
+  { number: 80, text: "Успішно відкритих ФОПів" },
   { number: 2000, text: "Успішно поданих звітів" },
   { number: 5000, text: "Підготовлено первинних документів" },
 ];

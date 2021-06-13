@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Easy Tax - 200 UAH/month",
     description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+      "Пакет доволі простий, ти надаєш виписку або ж якщо я буду доданий як бухгалтер у клієнт банк - зможу сам переглянути виписку. Готую та відправляю звіт + готую платежі на податки у клієнт банку або ж надсилаю тобі реквізити для сплати",
     image: "/images/1.jpg",
     tags: ["Reports", "Tax"],
     source: "https://google.com",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Pro Tax - 400 UAH/month",
     description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+      "Цей пакет вже більш цікавий, він вкдючає в себе пакет Easy Tax + заповнення книги доходів; готування актів, інвойсів, договорів (навіть ангійською мовою), до цього всього цілодобові консультації, та допомога у всіх фінансових питаннях. Коротшими словами все, що твоя душа забажає!",
     image: "/images/2.jpg",
     tags: ["Reports", "Tax", "Fill Tax book", "Documentations"],
     source: "https://google.com",

@@ -13,7 +13,7 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Привіт! <br />
-        Я, Ірина, твій особистий бухгалтер
+        Я, Богдан, твій особистий бухгалтер
       </SectionTitle>
       <SectionText>
         Моя ціль надати якісні бухгалтерські послуги 📓 для підприємців які
@@ -21,7 +21,9 @@ const Hero = () => (
         <br />
         Маєш питання? ✍️
       </SectionText>
-      <Button onClick={() => console.log("More")}>Telegram</Button>
+      <Button onClick={() => (window.location = "https://t.me/b_veretelnik")}>
+        Telegram
+      </Button>
     </LeftSection>
   </Section>
 );

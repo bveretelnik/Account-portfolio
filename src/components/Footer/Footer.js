@@ -1,5 +1,9 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -16,11 +20,11 @@ import {
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <FooterWrapper id="contact">
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+380931202410">093 120 24 10</LinkItem>
+          <LinkItem href="tel:+380931202410">+ 3 8 (093) 120 24 10</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -34,13 +38,13 @@ const Footer = () => {
           <Slogan>Твій успіх - моя ціль! 👌</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
-            <AiFillGithub size="3rem" />
+          <SocialIcons href="https://www.facebook.com/bogdan.veretelnik">
+            <AiFillFacebook size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/bohdan-veretelnik-15a834147">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.instagram.com/b_veretelnik">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
