@@ -22,9 +22,18 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { step: "Крок 1", text: "Знайомство" },
+  { step: "Крок 2", text: "Узгодження та підписання контракту" },
+  {
+    step: "Крок 3",
+    text: "Передача документів по ФОП (виписка, витяг, КЕП (за наявності))",
+  },
+  {
+    step: "Крок 4",
+    text: "Якщо маєш існуючий ФОП - проводжу аудит, ні - відкриваю ФОП",
+  },
+  {
+    step: "Крок 5",
+    text: "Створюю під тебе окрему папку в Google Drive, де будуть всі майбутні та теперешні документи",
+  },
 ];

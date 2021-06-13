@@ -31,13 +31,13 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#needAccount">
-          <NavLink>Книга обліку</NavLink>
+        <Link href="#main">
+          <NavLink>Головна</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#price">
-          <NavLink>Ціна</NavLink>
+          <NavLink>Ціни</NavLink>
         </Link>
       </li>
       <li>
